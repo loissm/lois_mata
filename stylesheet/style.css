@@ -1,0 +1,80 @@
+body {
+    min-height: 100vh;
+  }
+  
+  html {
+    height: 100vh;
+  }
+  
+  main {
+    height: 100vh;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: #F7F8FC;
+  }
+
+  hr {
+      color:white;
+  }
+
+#banner {
+  color:#838590;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+    color: #A4A6B3 !important;;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background:linear-gradient(90deg, #DDE2FF 1%, #3F4049 1%);
+    color: #DDE2FF !important;
+  }
+
+#featureBox {
+  border: 2px #DFE0EB solid;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#featureBox:hover {
+  border: 2px #3751FF solid;
+  color: #3751FF;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#featureBox:hover > p {
+  color: #3751FF;
+}
+
+
+#featureBox p {
+  color:#9FA2B4;
+  font-weight: bold;
+}
+
+canvas {
+  background-color: white;
+}
+
+h1 {
+  color: #252733;
+  font-size: 1.5em!important;
+}
+
+.spacedRow {
+  height:20%;
+}
+
+.spacedRow p {
+  font-size: small;
+}
+
+@media only screen and (max-width: 1400px) {
+  .flexFigure {
+    width: 100%;
+  }
+}
