@@ -15,6 +15,11 @@ body {
     background-color: #F7F8FC;
   }
 
+  #profilePic
+  {
+    border-radius: 50%;
+  }
+
   hr {
       color:white;
   }
@@ -87,4 +92,61 @@ h1 {
   .flexFigure {
     width: 100%;
   }
+}
+
+@media only screen and (max-width: 1400px) {
+  nav {
+    display: none!important;
+  }
+}
+
+.ticketheader {
+  font-size: medium;
+  white-space: nowrap;
+}
+
+.bottomCardView {
+  color:#3751FF; 
+}
+
+.bottomCardGroup {
+  font-size: small;
+  color: #9FA2B4;
+}
+
+.bottomCardSupport {
+  color: #4B506D;
+}
+
+.createnewtask {
+  font-size: medium;
+  color: #C5C7CD;
+}
+
+.ticketamount {
+  color: #9FA2B4;
+}
+
+.urgentbutton {
+  color:white;
+  background-color: #FEC400;
+  border-radius: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.newbutton {
+  color:white;
+  background-color: #29CC97;
+  border-radius: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.defaultbutton {
+  color:#9FA2B4;
+  background-color: #F0F1F7;
+  border-radius: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
