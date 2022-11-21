@@ -71,6 +71,7 @@ h1 {
 
 .spacedRow p {
   font-size: small;
+  color: #9FA2B4;
 }
 
 @media only screen and (max-width: 1400px) {
