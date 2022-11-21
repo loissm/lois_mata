@@ -11,7 +11,7 @@ body {
     height: 100vh;
     max-height: 100vh;
     overflow-x: auto;
-    overflow-y: hidden;
+    overflow-y: auto;
     background-color: #F7F8FC;
   }
 
@@ -72,6 +72,15 @@ h1 {
 .spacedRow p {
   font-size: small;
   color: #9FA2B4;
+}
+
+.flexFigure p {
+  font-size: 0.7rem;
+  color: #9FA2B4;
+}
+
+.flexFigure h5 {
+  font-size: 1rem;
 }
 
 @media only screen and (max-width: 1400px) {
