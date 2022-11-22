@@ -1,0 +1,26 @@
+{
+  "name": "bootstrapassignment",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "Lois Mata",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elloissa.mata/bootstrapAssignment.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/elloissa.mata/bootstrapAssignment/issues"
+  },
+  "homepage": "https://github.com/elloissa.mata/bootstrapAssignment#readme",
+  "description": "",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
