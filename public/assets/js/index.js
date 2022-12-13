@@ -115,3 +115,13 @@ const config = {
 const ctx = document.getElementById('myChart');
 
 new Chart(ctx,config)
+
+// Populate html infoCards with json data
+$.ajax({
+  url: 'data/content.json',
+  success: function(results) {
+    results.ticketData.forEach(e => {
+      $(".infoCards").append('<div class="feature col"><div id="featureBox"><p class="text-center my-2">' + e.type + '</p><h3 class="fs-2 text-center">' + e.amount + '</h3></div></div>')
+    })
+  }
+})

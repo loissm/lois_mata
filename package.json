@@ -19,8 +19,9 @@
     "url": "https://github.com/elloissa.mata/bootstrapAssignment/issues"
   },
   "homepage": "https://github.com/elloissa.mata/bootstrapAssignment#readme",
-  "description": "",
   "devDependencies": {
     "lite-server": "^2.6.1"
-  }
+  },
+  "license": "ISC",
+  "description": ""
 }

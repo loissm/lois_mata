@@ -1,0 +1,38 @@
+{
+    "ticketData": 
+    [
+        {
+            "type": "Unresolved",
+            "amount": 60
+        },
+        {
+            "type": "Overdue",
+            "amount": 16
+        },
+        {
+            "type": "Open",
+            "amount": 43
+        },
+        {
+            "type": "On hold",
+            "amount": 64
+        },
+        {
+            "type": "Delayed",
+            "amount": 79
+        },
+        {
+            "type": "In Progress",
+            "amount": 88
+        },
+        {
+            "type": "Submitted",
+            "amount": 79
+        },
+        {
+            "type": "Approved",
+            "amount": 88
+        }
+    ]
+}
+    
