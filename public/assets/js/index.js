@@ -121,7 +121,11 @@ $.ajax({
   url: 'data/content.json',
   success: function(results) {
     results.ticketData.forEach(e => {
-      $(".infoCards").append('<div class="feature col"><div id="featureBox"><p class="text-center my-2">' + e.type + '</p><h3 class="fs-2 text-center">' + e.amount + '</h3></div></div>')
+      $(".infocards").append('<div class="feature col"><div id="featureBox"><p class="text-center my-2">' + e.type + '</p><h3 class="fs-2 text-center">' + e.amount + '</h3></div></div>')
     })
+    results.resolvedTicketStats.forEach(e => {
+      $(".resolvedcards").append('<div class="row spacedRow border-bottom d-flex align-items-center"><div class="col"><p class="text-center my-2 mb-0 fw-600 pb-6">' + e.type + '</p><h3 class="fs-4 text-center fw-700">' + e.amount + '</h3></div></div>')
+    })
+    $(".username").append(results.username)
   }
 })

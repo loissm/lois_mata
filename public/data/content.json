@@ -1,4 +1,5 @@
 {
+    "username": "Jones Ferdinand",
     "ticketData": 
     [
         {
@@ -32,6 +33,29 @@
         {
             "type": "Approved",
             "amount": 88
+        }
+    ],
+    "resolvedTicketStats": 
+    [
+        {
+            "type": "Resolved",
+            "amount": 449
+        },
+        {
+            "type": "Received",
+            "amount": 426
+        },
+        {
+            "type": "Average first response time",
+            "amount": 426
+        },
+        {
+            "type": "Resolution within SLA",
+            "amount": "3h 8m"
+        },
+        {
+            "type": "Delayed",
+            "amount": "94%"
         }
     ]
 }
